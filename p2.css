@@ -1,5 +1,5 @@
 body{    
-    background-image: url('C:\Users\shubham tiwari\Desktop\Payment Shubham/WhatsApp Image 2022-09-06 at 11.32.55 PM.JPEG');
+    background-image: url('WhatsApp Image 2022-09-06 at 11.32.55 PM.JPEG');
     color: white;
 }
 body:after {
@@ -70,7 +70,7 @@ body:after {
     #about{
 
       /* padding: 80px 0px; */             
-     background-image: url('C:\Users\shubham tiwari\Desktop\Payment Shubham\bg2.JPG');
+     background-image: url('bg2.JPG');
     }
     .row{
       display: flex;
