@@ -1,0 +1,100 @@
+body{
+  background-image: url('C:\Users\shubham tiwari\Desktop\Payment Shubham\bg3.JPEG');
+  background-size: cover;
+  background-position: center;
+  height: 150%;
+  color: white;
+  z-index: -1;
+  /* opacity: ; */
+  /* background: linear-gradient(rgba(72, 72, 72, 0.4); */
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: rgba(0.7,0.5,0.1,0.1);
+  pointer-events: none;
+  background-blend-mode: darken;
+  z-index: -1;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:#ff004f;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+  .navbar .navbar-nav .nav-link {
+    color:white;
+    font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ff004f;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-itema{
+    display: flex;
+    float: right;
+    padding: 12px;
+    color: aliceblue;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:#ff004f;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+    color: white;
+  }
+  .header-text{
+    color: white;
+    margin-left: 30%;
+    margin-top: 20%;
+  }
+  .header-text p span{
+        color: whitesmoke;
+       }
+    .a{
+        margin-left: -113px;
+    }
+.c{
+        margin-left: 80px;
+    }
+    .btn{
+        background-color: green;
+        color: red;
+        margin-left: 630px;
+    }
+    /* img{
+      height: 700px;
+      margin-top: 100px;
+      margin-left: -143px;
+  }
+  #about{
+    padding: 80px 0px;
+    background-image: url('C:\Users\shubham tiwari\Desktop\Payment Shubham\bg2.JPG');
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+  } */
